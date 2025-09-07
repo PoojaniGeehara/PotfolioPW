@@ -694,14 +694,16 @@ footer {
   }
 
     .main_container .image{
-     margin-bottom: 20px;
+    width: 250px;
+    height: 250px;          
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
     margin-top: 20px;
     z-index: 1;
-    width: 200px;
-    height: 200px;
-    min-width: 150px;
-    min-height: 150px;
     }
+
     .main_container .content{
         width: 90%;
     }
@@ -783,10 +785,11 @@ footer {
 
     .main_container .image{
     
-    width: 200px;
-    height: 100px;
-    min-width: 150px;
-    min-height: 150px;
+   width: 200px;
+    height: 200px;          
+    aspect-ratio: 1/1;      
+    border-radius: 50%;     
+    overflow: hidden;
     z-index: 1;
    
 
