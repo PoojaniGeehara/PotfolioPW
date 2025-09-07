@@ -12,9 +12,7 @@ body{
     background-color: black;
     color: azure;
     scroll-behavior: smooth;
-
 }
-
 
 nav {
   position: sticky;
@@ -42,6 +40,7 @@ nav {
   cursor: default;
   animation: slideRight 2s ease forwards;
 }
+
 .logo span {
   color: #077b32;
   text-shadow: 0 0 10px #077b32;
@@ -58,10 +57,10 @@ nav {
   font-size: 2rem;
 }
 
-/* Links - Desktop */
 .nav_container .links {
   display: flex;
 }
+
 .nav_container .links a {
   font-size: 1.2rem;
   color: aliceblue;
@@ -70,6 +69,7 @@ nav {
   font-weight: 550;
   transition: 0.3s linear;
 }
+
 .nav_container .links a::before {
   content: "";
   position: absolute;
@@ -80,14 +80,15 @@ nav {
   background-color: aquamarine;
   transition: 0.2s linear;
 }
+
 .nav_container .links a:hover::before {
   width: 100%;
 }
+
 .nav_container .links a:hover {
   color: aqua;
 }
 
-/* Dropdown (Mobile Menu) */
 .dropd {
   position: absolute;
   top: -500px; /* hidden initially */
@@ -102,6 +103,7 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+
 .dropd .links a {
   color: azure;
   text-decoration: none;
@@ -110,6 +112,7 @@ nav {
   width: 100%;
   text-align: center;
 }
+
 .dropd .links a:hover {
   background-color: aquamarine;
   color: black;
@@ -121,9 +124,8 @@ section {
   margin: 0 auto;
   max-width: 1200px;
   box-sizing: border-box;
-  min-height: auto; /* remove fixed vh */
+  min-height: auto; 
 }
-
 
 .section-title {
   text-align: center;
@@ -148,7 +150,6 @@ section {
   padding-top: 50px;
   text-align: center;
 }
-
 
 .main_container .image{
     margin-top: 50px;
@@ -184,7 +185,6 @@ section {
 .content h1 span{
     color: #077b32;
     text-shadow: 0 0 10px #077b32;
-
 }
 
 .content .writer{
@@ -196,7 +196,6 @@ section {
     color: #8edfaa;
     text-shadow: 0 0 10px #077b30;
     font-weight: 600;
-
 }
 
 .content p {
@@ -227,6 +226,7 @@ section {
     background-color: 0 0 10px #077b30;
     filter: drop-shadow(0 0 10px #077b30);
 }
+
 .content button{
     width: 50%;
     height: 6vh;
@@ -240,6 +240,7 @@ section {
     border-radius: 5px;
     transition: 0.2s linear;
 }
+
 .content button:hover{
     scale: 1.1;
     color: #077b32;
@@ -247,10 +248,8 @@ section {
     background-color: transparent;
     font-weight: 700;
     box-shadow: 0 0 40px #134f28;
-
 }
 
-/* ===== About Section ===== */
 #about {
   padding: 80px 10%;
   background: #111;
@@ -322,8 +321,6 @@ section {
   box-shadow: 0 0 20px #134f28;
 }
 
-
-/* ===== Skills Section ===== */
 #skills {
   padding: 100px 20%;
   margin-top: 100px;
@@ -395,9 +392,6 @@ section {
   cursor: default;
 }
 
-
-
-/* ===== Services Section ===== */
 #work {
   padding: 100px 10%;
   background: #111;
@@ -415,7 +409,7 @@ section {
 .services-container {
   display: flex;
   justify-content: center;
-  align-items: stretch; /* ✅ Forces equal height */
+  align-items: stretch; 
   gap: 20px;
   flex-wrap: wrap;
   margin: 50px auto;
@@ -432,10 +426,10 @@ section {
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
-  display: flex;              /* ✅ Makes internal layout flexible */
-  flex-direction: column;     /* ✅ Stack content vertically */
-  justify-content: space-between; /* ✅ Pushes items evenly inside */
-  min-height: 250px;          /* ✅ Fixed minimum height for uniformity */
+  display: flex;              
+  flex-direction: column;     
+  justify-content: space-between; 
+  min-height: 250px;          
 }
 
 .service-card i {
@@ -460,7 +454,6 @@ section {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* ================= PROJECTS SECTION ================= */
 .projects-container {
   display: flex;
   justify-content: center;
@@ -507,7 +500,6 @@ section {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* ===== Contact Section ===== */
 #contact {
   padding: 100px 10%;
   background: #0d0d0d;
@@ -552,7 +544,6 @@ section {
   text-decoration: underline;
 }
 
-
 .contact-form {
   flex: 1;
   display: flex;
@@ -595,10 +586,7 @@ section {
   box-shadow: 0 0 15px #077b32;
 }
 
-/* ===== Footer ===== */
-
-footer {
-   
+footer {   
   padding: 30px;
   text-align: center;
   background: #111;
@@ -618,6 +606,7 @@ footer {
         flex-direction: column;
         padding: 40px 20px;
     }
+
     .nav_container .links{
         display: none;
     }
@@ -626,6 +615,7 @@ footer {
     .cancel{
         display: block;
     }
+
     .main_container .content{
         width: 80%;
         margin-top: 20px;
@@ -636,11 +626,13 @@ footer {
     height: 2.5rem;
     font-size: 1.5rem;
     }
+
     .main_container {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-  }
+    }
+
     .main_container .image{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -649,33 +641,33 @@ footer {
     height: 250px;
     }
 
-.about-container {
+    .about-container {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-  }
+    }
 
-  .about-img {
+   .about-img {
     margin-bottom: 20px;
-  }
+   }
 
-  .skills-wrapper {
+   .skills-wrapper {
     flex-direction: column;
     align-items: center;
-  }
+   }
 
-  .skills-box {
+   .skills-box {
     width: 100%;
     max-width: 90%; 
     margin: auto;
     margin-bottom: 20px;
-  }
+   }
 
  
-.services-container, .projects-container {
+   .services-container, .projects-container {
     flex-direction: column;
     align-items: center;
-  }
+   }
 
   .service-card, .project-card {
     flex: 1 1 100%;
@@ -698,14 +690,14 @@ footer {
 
 @media (max-width: 768px) {
 
-     .main_container {
+    .main_container {
     flex-direction: column;
     text-align: center;
     padding: 20px;
-  }
+    }
 
     .main_container .image{
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     z-index: 1;
     width: 200px;
@@ -713,59 +705,58 @@ footer {
     min-width: 150px;
     min-height: 150px;
     }
+
     .main_container .content{
         width: 90%;
     }
 
-  .about-container {
+    .about-container {
     flex-direction: column;
     text-align: center;
-    
+    }
 
-  }
-
-  .about-img img {
+   .about-img img {
     width: 250px;
     height: 250px;
-  }
+    }
 
-  .about-content {
+   .about-content {
     width: 100%;
-  }
-  .about-content p {
+   }
+
+   .about-content p {
     font-size: 0.95rem;
     line-height: 1.5;
-  }
+   }
 
-
-  .skills-wrapper {
+   .skills-wrapper {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-  }
+   }
   
-  .skills-box {
+   .skills-box {
     width: 100%;
     text-align: center;
-  }
+   }
 
-  .skills-box ul li { 
+   .skills-box ul li { 
     font-size: 0.95rem; 
-}
+   }
 
-.service-card, .project-card {
+   .service-card, .project-card {
     padding: 20px;
-    
-  }
+   }
 
   .project-card img {
     height: 160px;
-  }
+   }
 
   .contact-form input,
   .contact-form textarea {
     font-size: 0.9rem;
   }
+
   .contact-container {
     flex-direction: column;
     text-align: center;
@@ -783,7 +774,7 @@ footer {
 
 
 @media(max-width:440px){
-     .logo {
+  .logo {
     font-size: 1.2rem;
   }
 
@@ -791,26 +782,24 @@ footer {
     font-size: 1.8rem;
   }
 
-    .main_container .image{
-    
+  .main_container .image{  
     width: 200px;
     height: 200px;
     min-width: 150px;
     min-height: 150px;
     z-index: 1;
-   
+  }
 
-}
-    .main_container .content{
+  .main_container .content{
         width: 100%;
         font-size: 0.85rem;
-    }
+  }
 
-    .main_container button{
+  .main_container button{
         margin-top: 15px;
-    }
+  }
 
-    .content h1 {
+  .content h1 {
     font-size: 1.2rem;
    }
 
@@ -828,6 +817,7 @@ footer {
     width: 90%;
     margin-top: 15px;
   }
+
   .about-content h2 {
     font-size: 1.3rem;
   }
@@ -836,7 +826,6 @@ footer {
     font-size: 0.85rem;
   }
 
-  /* Skills Section */
   .skills-box h3 {
     font-size: 1.2rem;
   }
@@ -845,16 +834,14 @@ footer {
     font-size: 0.9rem;
   }
 
-  /* Services Section */
-.services-container, .projects-container {
+  .services-container, .projects-container {
     padding: 10px;
     gap: 15px;
   }
 
   .service-card, .project-card {
     padding: 15px;
-    font-size: 0.9rem;
-    
+    font-size: 0.9rem;  
   }
 
   .service-card i {
@@ -865,26 +852,34 @@ footer {
     height: 140px;
   }
 
-
-  /* Contact Section */
   .contact-form {
     width: 100%;
     padding: 15px;
   }
-  .contact-info {
-  
+
+  .contact-info { 
   font-size: 0.9rem;
- 
-}
+  }
 
   .contact-form input,
   .contact-form textarea {
-    font-size: 0.85rem;
+   font-size: 0.85rem;
   }
 
   .contact-form button {
     width: 100%;
   }
 
+}
 
+@keyframes slideRight {
+  0% { scale: 0; transform: translateX(-50px); }
+  50% { scale: 1.05; }
+  100% { scale: 1; transform: translateX(0); }
+}
+
+@keyframes animate {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
 }
