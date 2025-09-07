@@ -46,6 +46,23 @@ nav {
   color: #077b32;
   text-shadow: 0 0 10px #077b32;
 }
+/* ===== HOME IMAGE FIX ===== */
+#home .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#home .image img {
+  width: 100%;
+  max-width: 280px;     
+  height: auto;         
+  border-radius: 50%;   
+  object-fit: cover;    
+  box-shadow: 0 0 25px #077b32; 
+  display: block;
+}
 
 .hamburg,
 .cancel {
@@ -773,6 +790,12 @@ footer {
 @media(max-width:440px){
      .logo {
     font-size: 1.2rem;
+  }
+
+ #home .image img {
+    max-width: 200px;  
+     width: 200px;
+    height: 10px;
   }
 
   .hamburg {
