@@ -47,7 +47,6 @@ nav {
   text-shadow: 0 0 10px #077b32;
 }
 
-
 .hamburg,
 .cancel {
   cursor: pointer;
@@ -542,6 +541,18 @@ section {
   font-size: 1.5rem;
 }
 
+.contact-info a {
+  color: #8edfaa;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #077b32;
+  text-decoration: underline;
+}
+
+
 .contact-form {
   flex: 1;
   display: flex;
@@ -694,16 +705,14 @@ footer {
   }
 
     .main_container .image{
-    width: 250px;
-    height: 250px;          
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
+     margin-bottom: 20px;
     margin-top: 20px;
     z-index: 1;
+    width: 200px;
+    height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     }
-
     .main_container .content{
         width: 90%;
     }
@@ -778,18 +787,16 @@ footer {
     font-size: 1.2rem;
   }
 
-
   .hamburg {
     font-size: 1.8rem;
   }
 
     .main_container .image{
     
-   width: 200px;
-    height: 200px;          
-    aspect-ratio: 1/1;      
-    border-radius: 50%;     
-    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     z-index: 1;
    
 
@@ -881,15 +888,3 @@ footer {
 
 
 }
-
-@keyframes slideRight {
-  0% { scale: 0; transform: translateX(-50px); }
-  50% { scale: 1.05; }
-  100% { scale: 1; transform: translateX(0); }
-}
-
-@keyframes animate {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}             
