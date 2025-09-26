@@ -169,6 +169,7 @@ section {
   margin-bottom: 50px;
   text-align: center;
   background: linear-gradient(90deg, #00ff99, #00cc66);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #00ff99;
   text-shadow: 0 0 10px rgba(0,255,153,0.5);
