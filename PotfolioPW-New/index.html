@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Poojani Wijenayake | Software Quality Assurance Engineer - Intern</title>
+  <meta name="title" content="Poojani Wijenayake | Software Quality Assurance Engineer - Intern">
+  <meta name="description" content="Portfolio of Poojani Geehara Ransiluni Wijenayake, Computing and Information Systems Undergraduate at Sabaragamuwa University of Sri Lanka. Aspiring SQA Engineer skilled in manual testing, test case design, Postman, Selenium, Jira, and frontend development.">
+  <meta name="keywords" content="Poojani Wijenayake, Poojani Geehara, PoojaniGeehara, SQA Engineer Intern, Software Quality Assurance, Sabaragamuwa University of Sri Lanka, Manual Testing, Selenium, Postman, Jira, JUnit, TestNG, Sri Lanka, Matara">
+  <meta name="author" content="Poojani Geehara Ransiluni Wijenayake">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://poojanigeehara.github.io/PotfolioPW/">
+  <meta property="og:title" content="Poojani Wijenayake | Software Quality Assurance Engineer - Intern">
+  <meta property="og:description" content="Explore SQA projects, manual testing artifacts, test case design, technical skills, and credentials of Poojani Wijenayake.">
+  <meta property="og:image" content="main.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Typed.js for dynamic role typing -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <!-- Ambient Interactive Canvas -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Poojani Wijenayake Home">
+        <span class="logo-mark">
+          <img src="favicon.svg" alt="PW Logo" class="logo-icon">
+        </span>
+        <span class="logo-text">Poojani<span class="highlight">.qa</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active"><i class='bx bx-home-alt'></i> <span>Home</span></a></li>
+          <li class="nav-item"><a href="#about" class="nav-link"><i class='bx bx-user'></i> <span>About</span></a></li>
+          <li class="nav-item"><a href="#education" class="nav-link"><i class='bx bx-book-bookmark'></i> <span>Education</span></a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"><i class='bx bx-code-block'></i> <span>Skills</span></a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><i class='bx bx-folder-open'></i> <span>Projects</span></a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link"><i class='bx bx-award'></i> <span>Credentials</span></a></li>
+          <li class="nav-item"><a href="#services" class="nav-link"><i class='bx bx-layer'></i> <span>Expertise</span></a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"><i class='bx bx-paper-plane'></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action Controls -->
+      <div class="nav-actions">
+        <button class="resume-btn" id="open-resume-modal" title="View & Print Resume">
+          <i class='bx bx-file'></i>
+          <span>Resume</span>
+        </button>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Color Theme" title="Toggle Theme">
+          <i class='bx bx-moon' id="theme-icon"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-out Menu -->
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="mobile-nav-header">
+        <div class="logo">Poojani<span class="highlight">.qa</span></div>
+        <button class="close-mobile-menu" id="close-mobile-menu" aria-label="Close Navigation Menu">
+          <i class='bx bx-x'></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link active"><i class='bx bx-home-alt'></i> Home</a></li>
+        <li><a href="#about" class="mobile-nav-link"><i class='bx bx-user'></i> About</a></li>
+        <li><a href="#education" class="mobile-nav-link"><i class='bx bx-book-bookmark'></i> Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link"><i class='bx bx-code-block'></i> Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link"><i class='bx bx-folder-open'></i> Projects</a></li>
+        <li><a href="#certifications" class="mobile-nav-link"><i class='bx bx-award'></i> Credentials</a></li>
+        <li><a href="#services" class="mobile-nav-link"><i class='bx bx-layer'></i> Expertise</a></li>
+        <li><a href="#contact" class="mobile-nav-link"><i class='bx bx-paper-plane'></i> Contact</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <button class="btn btn-primary full-width" id="mobile-resume-btn">
+          <i class='bx bx-file'></i> View Resume
+        </button>
+        <div class="mobile-socials">
+          <a href="https://github.com/PoojaniGeehara" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/poojani-wijenayake/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="mailto:poojaniwijenayake@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+          <a href="tel:+94707471016" aria-label="Phone"><i class='bx bx-phone'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <!-- Hero Content (Left) -->
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for SQA Engineer Internship</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Poojani Wijenayake</span>
+          </h1>
+
+          <div class="typewriter-container">
+            <span class="typewriter-prefix">Aspiring: </span>
+            <span class="typewriter-text" id="typed-output"></span>
+          </div>
+
+          <p class="hero-description">
+            BSc (Hons) in Computing and Information Systems undergraduate at <strong>Sabaragamuwa University of Sri Lanka</strong>. 
+            Passionate about <strong>Software Quality Assurance</strong>, manual test case design, functional & regression testing, 
+            and delivering robust, high-standard digital solutions.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <i class='bx bx-right-arrow-alt'></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+              <i class='bx bx-message-rounded-dots'></i>
+            </a>
+            <button class="btn btn-outline" id="hero-resume-trigger">
+              <i class='bx bx-file'></i>
+              <span>Curriculum Vitae</span>
+            </button>
+          </div>
+
+          <!-- Social Links & Quick Actions -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <div class="social-links-wrapper">
+              <a href="https://github.com/PoojaniGeehara" target="_blank" rel="noopener noreferrer" class="social-link" data-tooltip="GitHub: PoojaniGeehara" aria-label="GitHub">
+                <i class='bx bxl-github'></i>
+              </a>
+              <a href="https://www.linkedin.com/in/poojani-wijenayake/" target="_blank" rel="noopener noreferrer" class="social-link" data-tooltip="LinkedIn: Poojani Wijenayake" aria-label="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+              </a>
+              <a href="mailto:poojaniwijenayake@gmail.com" class="social-link" data-tooltip="Email Poojani" aria-label="Email">
+                <i class='bx bx-envelope'></i>
+              </a>
+              <a href="tel:+94707471016" class="social-link" data-tooltip="Call: +94 707471016" aria-label="Phone">
+                <i class='bx bx-phone'></i>
+              </a>
+              <button class="social-link copy-email-btn" id="copy-email-btn" data-tooltip="Copy Email" aria-label="Copy Email">
+                <i class='bx bx-copy'></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic / Image (Right) -->
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <div class="glow-backdrop"></div>
+            <div class="image-frame">
+              <img src="main.png" alt="Poojani Wijenayake" class="hero-img" loading="eager">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-1" title="Computing & Information Systems">
+              <div class="badge-icon"><i class='bx bx-server'></i></div>
+              <div class="badge-info">
+                <span class="badge-sub">Major</span>
+                <span class="badge-main">Computing &amp; IS</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-2" title="Target Role">
+              <div class="badge-icon"><i class='bx bx-check-shield'></i></div>
+              <div class="badge-info">
+                <span class="badge-sub">Target Role</span>
+                <span class="badge-main">SQA Intern</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-3" title="Testing & Quality Assurance">
+              <div class="badge-icon"><i class='bx bx-bug'></i></div>
+              <div class="badge-info">
+                <span class="badge-sub">Focus</span>
+                <span class="badge-main">Manual &amp; QA Testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About Section">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <span>Explore Profile</span>
+      </a>
+    </section>
+
+    <!-- QUICK STATS SECTION -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon"><i class='bx bx-graduation'></i></div>
+            <div class="stat-data">
+              <div class="counter-wrap"><h3 class="counter" data-target="3">0</h3><span class="stat-suffix">+</span></div>
+              <p>Years Computing Studies</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class='bx bx-folder-check'></i></div>
+            <div class="stat-data">
+              <div class="counter-wrap"><h3 class="counter" data-target="4">0</h3><span class="stat-suffix">+</span></div>
+              <p>Hands-on Projects</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class='bx bx-wrench'></i></div>
+            <div class="stat-data">
+              <div class="counter-wrap"><h3 class="counter" data-target="14">0</h3><span class="stat-suffix">+</span></div>
+              <p>Testing &amp; Dev Tools</p>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class='bx bx-task'></i></div>
+            <div class="stat-data">
+              <div class="counter-wrap"><h3 class="counter" data-target="100">0</h3><span class="stat-suffix">%</span></div>
+              <p>Quality &amp; Precision Focus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Image & Highlights -->
+          <div class="about-image-column">
+            <div class="about-image-card">
+              <div class="about-image-frame">
+                <img src="about.jpg" alt="Poojani Wijenayake - Portrait" class="about-img" loading="lazy">
+              </div>
+              <div class="about-card-badge">
+                <i class='bx bxs-award'></i>
+                <div>
+                  <strong>SUSL Undergraduate</strong>
+                  <span>Computing &amp; Information Systems</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Info Mini Cards -->
+            <div class="about-highlights-grid">
+              <div class="highlight-item">
+                <i class='bx bx-map-pin'></i>
+                <div>
+                  <span class="hl-label">Location</span>
+                  <span class="hl-val">Matara, Sri Lanka</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class='bx bx-certification'></i>
+                <div>
+                  <span class="hl-label">Degree</span>
+                  <span class="hl-val">BSc (Hons) CIS</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class='bx bx-check-shield'></i>
+                <div>
+                  <span class="hl-label">Specialization</span>
+                  <span class="hl-val">Software QA &amp; Testing</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class='bx bx-time-five'></i>
+                <div>
+                  <span class="hl-label">Availability</span>
+                  <span class="hl-val">Open for SQA Internships</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Narrative -->
+          <div class="about-content-column">
+            <div class="about-text-box">
+              <h3 class="about-heading">
+                Dedicated to software reliability, rigorous test design &amp; engineering excellence.
+              </h3>
+              
+              <p class="about-p">
+                I am a motivated undergraduate pursuing a <strong>BSc (Honours) in Computing and Information Systems</strong> 
+                at <strong>Sabaragamuwa University of Sri Lanka</strong> with a strong interest in <strong>Software Quality Assurance</strong>.
+              </p>
+
+              <p class="about-p">
+                I am actively cultivating in-depth expertise in software testing and quality assurance concepts, authoring detailed test plans, 
+                test scenarios, and positive/negative test cases. I am eager to apply and expand upon industry-standard testing tools such as 
+                <strong>Postman, Selenium, JUnit, TestNG, and Jira</strong>.
+              </p>
+
+              <p class="about-p">
+                As a quick learner with strong problem-solving and technical capabilities, I am seeking a 
+                <strong>Software Quality Assurance Intern</strong> position to gain practical experience, collaborate with engineering teams, 
+                and contribute meaningfully to delivering high-quality software solutions.
+              </p>
+
+              <!-- Personal Info List -->
+              <div class="personal-info-list">
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bx-user'></i> Full Name:</span>
+                  <span class="info-value">Poojani Geehara Ransiluni Wijenayake</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bx-briefcase'></i> Target Role:</span>
+                  <span class="info-value">Software Quality Assurance Engineer - Intern</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bx-phone'></i> Phone:</span>
+                  <a href="tel:+94707471016" class="info-value link-highlight">+94 707471016</a>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bx-envelope'></i> Email:</span>
+                  <a href="mailto:poojaniwijenayake@gmail.com" class="info-value link-highlight">poojaniwijenayake@gmail.com</a>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bx-map'></i> Location:</span>
+                  <span class="info-value">Matara, Sri Lanka</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bxl-github'></i> GitHub:</span>
+                  <a href="https://github.com/PoojaniGeehara" target="_blank" rel="noopener noreferrer" class="info-value link-highlight">github.com/PoojaniGeehara</a>
+                </div>
+                <div class="info-row">
+                  <span class="info-tag"><i class='bx bxl-linkedin'></i> LinkedIn:</span>
+                  <a href="https://www.linkedin.com/in/poojani-wijenayake/" target="_blank" rel="noopener noreferrer" class="info-value link-highlight">linkedin.com/in/poojani-wijenayake</a>
+                </div>
+              </div>
+
+              <div class="about-cta-wrapper">
+                <a href="#contact" class="btn btn-primary">
+                  <i class='bx bx-mail-send'></i>
+                  <span>Let's Connect</span>
+                </a>
+                <button class="btn btn-secondary" id="about-resume-trigger">
+                  <i class='bx bx-file'></i>
+                  <span>Curriculum Vitae</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & MILESTONES SECTION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Credentials</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Milestones</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Item 1: Sabaragamuwa University -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class='bx bx-book-reader'></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-date">Present (Ongoing)</div>
+              <h3 class="timeline-title">BSc (Hons) in Computing and Information Systems</h3>
+              <h4 class="timeline-institution">Sabaragamuwa University of Sri Lanka (SUSL)</h4>
+              
+            </div>
+          </div>
+
+          <!-- Item 2: High School GCE A/L -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i class='bx bx-buildings'></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-date">2022</div>
+              <h3 class="timeline-title">G.C.E. Advanced Level – Physical Science Stream</h3>
+              <h4 class="timeline-institution">St. Thomas' Girls' High School, Matara</h4>
+            
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiencies</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Competencies</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="skills-tabs" role="tablist">
+          <button class="skill-tab active" data-filter="all" role="tab" aria-selected="true">All Skills</button>
+          <button class="skill-tab" data-filter="qa" role="tab" aria-selected="false">QA &amp; Testing</button>
+          <button class="skill-tab" data-filter="programming" role="tab" aria-selected="false">Languages</button>
+          <button class="skill-tab" data-filter="frameworks" role="tab" aria-selected="false">Tools &amp; Frameworks</button>
+          <button class="skill-tab" data-filter="databases" role="tab" aria-selected="false">Databases &amp; Concepts</button>
+          <button class="skill-tab" data-filter="soft" role="tab" aria-selected="false">Soft Skills</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- QA & Testing -->
+          <div class="skill-card" data-category="qa">
+            <div class="skill-card-top">
+              <div class="skill-icon qa-icon"><i class='bx bx-check-shield'></i></div>
+              <div class="skill-meta">
+                <h4>Manual Software Testing</h4>
+                <span class="skill-level">Core Proficiency</span>
+              </div>
+            </div>
+            <p class="skill-desc">Test planning, test scenario authoring, functional, UI, boundary, and regression testing.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-card-top">
+              <div class="skill-icon qa-icon"><i class='bx bx-list-check'></i></div>
+              <div class="skill-meta">
+                <h4>Test Case Design &amp; Scenarios</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Writing rigorous positive and negative test cases, equivalence partitioning, and boundary value analysis.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-card-top">
+              <div class="skill-icon jira-icon"><i class='bx bx-bug'></i></div>
+              <div class="skill-meta">
+                <h4>Bug Reporting &amp; Jira</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Defect lifecycle logging, severity/priority triage, bug reproduction steps, and Jira issue tracking.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-card-top">
+              <div class="skill-icon postman-icon"><i class='bx bx-send'></i></div>
+              <div class="skill-meta">
+                <h4>Postman (API Testing)</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">REST API inspection, endpoint verification, status code validation, and JSON payload assertions.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="82%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="qa">
+            <div class="skill-card-top">
+              <div class="skill-icon selenium-icon"><i class='bx bx-cog'></i></div>
+              <div class="skill-meta">
+                <h4>Selenium, JUnit &amp; TestNG</h4>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <p class="skill-desc">Test automation fundamentals, WebDriver scripting basics, assertions, and test suite execution.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="78%"></div>
+            </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon java-icon"><i class='bx bxl-java'></i></div>
+              <div class="skill-meta">
+                <h4>Java</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">OOP principles, inheritance, encapsulation, polymorphism, data structures, and JUnit test cases.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="84%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon js-icon"><i class='bx bxl-javascript'></i></div>
+              <div class="skill-meta">
+                <h4>JavaScript (ES6+)</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Modern ES6+ syntax, asynchronous operations, DOM manipulation, and state management.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon python-icon"><i class='bx bxl-python'></i></div>
+              <div class="skill-meta">
+                <h4>Python</h4>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <p class="skill-desc">Foundational scripting, data structures, algorithmic implementations, and test automation scripts.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon c-icon"><i class='bx bx-code-curly'></i></div>
+              <div class="skill-meta">
+                <h4>C Language</h4>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <p class="skill-desc">Memory management, pointers, low-level computation, and algorithmic logic structure.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="programming">
+            <div class="skill-card-top">
+              <div class="skill-icon web-icon"><i class='bx bxl-html5'></i></div>
+              <div class="skill-meta">
+                <h4>HTML5 &amp; CSS3</h4>
+                <span class="skill-level">Advanced</span>
+              </div>
+            </div>
+            <p class="skill-desc">Semantic markup, responsive layouts, Flexbox, CSS Grid, animations, and cross-browser accessibility.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="90%"></div>
+            </div>
+          </div>
+
+          <!-- Frameworks & Tools -->
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-card-top">
+              <div class="skill-icon react-icon"><i class='bx bxl-react'></i></div>
+              <div class="skill-meta">
+                <h4>React.js &amp; Next.js</h4>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <p class="skill-desc">Component-driven architecture, props, state management, hooks, and responsive UI integration.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-card-top">
+              <div class="skill-icon git-icon"><i class='bx bxl-git'></i></div>
+              <div class="skill-meta">
+                <h4>Git &amp; GitHub</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Branch workflows, pull requests, commit hygiene, version control, and GitHub Pages deployments.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="86%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-card-top">
+              <div class="skill-icon sys-icon"><i class='bx bx-desktop'></i></div>
+              <div class="skill-meta">
+                <h4>IntelliJ IDEA &amp; VS Code</h4>
+                <span class="skill-level">Advanced</span>
+              </div>
+            </div>
+            <p class="skill-desc">Modern IDE development, code debugging, linting, extensions, and test runner configurations.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-card-top">
+              <div class="skill-icon brain-icon"><i class='bx bx-table'></i></div>
+              <div class="skill-meta">
+                <h4>Excel &amp; Google Sheets</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Test plan authoring, test execution matrices, bug tracking logs, and metric reporting.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="90%"></div>
+            </div>
+          </div>
+
+          <!-- Databases & Concepts -->
+          <div class="skill-card" data-category="databases">
+            <div class="skill-card-top">
+              <div class="skill-icon db-icon"><i class='bx bx-data'></i></div>
+              <div class="skill-meta">
+                <h4>MySQL &amp; Relational Databases</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Schema design, normalization (1NF-3NF), SQL queries, data validation, and integrity constraints.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="databases">
+            <div class="skill-card-top">
+              <div class="skill-icon mongo-icon"><i class='bx bxl-mongodb'></i></div>
+              <div class="skill-meta">
+                <h4>MongoDB</h4>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <p class="skill-desc">NoSQL document modeling, collections, CRUD operations, and JSON schema inspection.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="78%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="databases">
+            <div class="skill-card-top">
+              <div class="skill-icon sys-icon"><i class='bx bx-network-chart'></i></div>
+              <div class="skill-meta">
+                <h4>OOP &amp; Agile Development</h4>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+            <p class="skill-desc">Object-oriented architecture, SDLC/STLC phases, Scrum ceremonies, sprint workflows, and user stories.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="86%"></div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card" data-category="soft">
+            <div class="skill-card-top">
+              <div class="skill-icon brain-icon"><i class='bx bx-brain'></i></div>
+              <div class="skill-meta">
+                <h4>Problem Solving &amp; Adaptability</h4>
+                <span class="skill-level">High</span>
+              </div>
+            </div>
+            <p class="skill-desc">Methodical analytical reasoning, fast technology adoption, and structured issue deconstruction.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="soft">
+            <div class="skill-card-top">
+              <div class="skill-icon team-icon"><i class='bx bx-group'></i></div>
+              <div class="skill-meta">
+                <h4>Teamwork &amp; Leadership</h4>
+                <span class="skill-level">High</span>
+              </div>
+            </div>
+            <p class="skill-desc">Proven leadership as IEEE WIE Team Lead, cross-functional collaboration, and clear QA documentation.</p>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" data-width="92%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Real-World &amp; Testing Works</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Project Filters -->
+        <div class="project-filters" role="tablist">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="qa">QA &amp; Testing</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="cli">CLI &amp; Systems</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: ShopEase E-Commerce Manual Testing -->
+          <article class="project-card" data-category="qa">
+            <div class="project-media">
+              <img src="pro2.PNG" alt="ShopEase E-Commerce Manual Testing Project" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <button class="quick-view-btn" data-modal="modal-shopease" aria-label="Quick View ShopEase">
+                  <i class='bx bx-zoom-in'></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="p-tag">Manual Testing</span>
+                <span class="p-tag">Test Plan &amp; Cases</span>
+                <span class="p-tag">Bug Reporting</span>
+                <span class="p-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">E-Commerce Web Application – Manual Testing</h3>
+              <p class="project-summary">
+                Developed a frontend e-commerce web application (ShopEase) using vanilla JavaScript to practice end-to-end 
+                manual software testing. Authored comprehensive test plans, test scenarios, and detailed positive/negative test cases 
+                covering authentication, catalog filtering, cart state management, and checkout. Executed functional, boundary, 
+                UI, and regression tests while logging bug reports and tracking resolution artifacts.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/PoojaniGeehara/-E-Commerce-Demo-Web-Application" target="_blank" rel="noopener noreferrer" class="p-link" title="GitHub Repository">
+                  <i class='bx bxl-github'></i> Code
+                </a>
+                <button class="p-link details-trigger" data-modal="modal-shopease">
+                  <i class='bx bx-info-circle'></i> Test Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: LankaGeo AI Flood Detection -->
+          <article class="project-card" data-category="web">
+            <div class="project-media default-project-bg">
+              <div class="project-code-preview">
+                <i class='bx bx-radar project-hero-icon'></i>
+                <span class="preview-lang">Next.js / TypeScript / AI Maps</span>
+              </div>
+              <div class="project-overlay">
+                <button class="quick-view-btn" data-modal="modal-lankageo" aria-label="Quick View LankaGeo">
+                  <i class='bx bx-zoom-in'></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="p-tag">Next.js</span>
+                <span class="p-tag">React.js</span>
+                <span class="p-tag">TypeScript</span>
+                <span class="p-tag">Google Maps API</span>
+                <span class="p-tag">Supabase</span>
+              </div>
+              <h3 class="project-title">LankaGeo – AI Flood Detection &amp; Risk Analysis</h3>
+              <p class="project-summary">
+                A web-based flood analysis platform utilizing satellite imagery and machine learning to detect flood-affected areas, 
+                visualize flood zones, and provide historical flood risk analysis and alerts (Group Project, 2025–2026). 
+                Contributed as Frontend Developer crafting responsive UI components and interactive geospatial visualizations.
+              </p>
+              <div class="project-links">
+                <button class="p-link details-trigger" data-modal="modal-lankageo">
+                  <i class='bx bx-info-circle'></i> Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Task Manager CLI -->
+          <article class="project-card" data-category="cli">
+            <div class="project-media default-project-bg">
+              <div class="project-code-preview">
+                <i class='bx bx-terminal project-hero-icon'></i>
+                <span class="preview-lang">Node.js / Terminal CLI</span>
+              </div>
+              <div class="project-overlay">
+                <button class="quick-view-btn" data-modal="modal-taskcli" aria-label="Quick View Task Manager CLI">
+                  <i class='bx bx-zoom-in'></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="p-tag">Node.js</span>
+                <span class="p-tag">JavaScript</span>
+                <span class="p-tag">Readline IO</span>
+                <span class="p-tag">CRUD Operations</span>
+              </div>
+              <h3 class="project-title">Task Manager CLI Application</h3>
+              <p class="project-summary">
+                Built an interactive, terminal-based task management application in pure Node.js utilizing standard IO readline interfaces, 
+                memory-based state management, custom input validation routines, dynamic menu navigation, and complete CRUD operations 
+                with robust error handling.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/PoojaniGeehara/task-flow" target="_blank" rel="noopener noreferrer" class="p-link" title="GitHub Repository">
+                  <i class='bx bxl-github'></i> Code
+                </a>
+                <button class="p-link details-trigger" data-modal="modal-taskcli">
+                  <i class='bx bx-info-circle'></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Interactive Portfolio -->
+          <article class="project-card" data-category="web">
+            <div class="project-media">
+              <img src="pro1.PNG" alt="Poojani Portfolio Website" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <button class="quick-view-btn" data-modal="modal-portfolio" aria-label="Quick View Portfolio">
+                  <i class='bx bx-zoom-in'></i> Quick View
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="p-tag">HTML5 / CSS3</span>
+                <span class="p-tag">JavaScript</span>
+                <span class="p-tag">Dual Theme</span>
+                <span class="p-tag">GitHub Pages</span>
+              </div>
+              <h3 class="project-title">Interactive SQA &amp; Developer Portfolio</h3>
+              <p class="project-summary">
+                A high-performance modern developer and SQA portfolio featuring dynamic typing animations, glassmorphic UI, 
+                dark/light theme customization, interactive project modals, and accessible mobile-friendly navigation.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/PoojaniGeehara/PotfolioPW" target="_blank" rel="noopener noreferrer" class="p-link" title="GitHub Repository">
+                  <i class='bx bxl-github'></i> Code
+                </a>
+                <a href="https://poojanigeehara.github.io/PotfolioPW/" target="_blank" rel="noopener noreferrer" class="p-link live-link" title="Live Preview">
+                  <i class='bx bx-link-external'></i> Live
+                </a>
+                <button class="p-link details-trigger" data-modal="modal-portfolio">
+                  <i class='bx bx-info-circle'></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & VOLUNTEERING SECTION -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Verified Credentials &amp; Impact</span>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Leadership</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Certifications Cards -->
+        <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.6rem;">
+          <i class='bx bx-badge-check' style="color: var(--primary);"></i> Professional Certifications
+        </h3>
+
+        <div class="cert-grid" style="margin-bottom: 3.5rem;">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-icon"><i class='bx bx-layout'></i></div>
+            <div class="cert-content">
+              <span class="cert-issuer">Coursera</span>
+              <h4 class="cert-title">Foundations of User Experience (UX) Design</h4>
+              <p class="cert-desc">User-centered design principles, usability inspection, accessibility standards, and digital product workflows.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-icon"><i class='bx bx-bulb'></i></div>
+            <div class="cert-content">
+              <span class="cert-issuer">Sololearn</span>
+              <h4 class="cert-title">Data Literacy with AI</h4>
+              <p class="cert-desc">Core data handling principles, AI methodologies, analytical thinking, and interpreting model-driven outcomes.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-icon"><i class='bx bxl-python'></i></div>
+            <div class="cert-content">
+              <span class="cert-issuer">Open Learning Platform – University of Moratuwa</span>
+              <h4 class="cert-title">Python for Beginners</h4>
+              <p class="cert-desc">Core Python syntax, algorithmic logic structures, functions, and scripting foundations.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteering Experiences -->
+        <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.6rem;">
+          <i class='bx bx-group' style="color: var(--secondary);"></i> Volunteering &amp; Community Leadership
+        </h3>
+
+        <div class="volunteering-grid">
+          <!-- Vol 1 -->
+          <div class="vol-card">
+            <div class="vol-header">
+              <span class="vol-badge">Leadership</span>
+              <i class='bx bxs-megaphone' style="color: var(--primary); font-size: 1.4rem;"></i>
+            </div>
+            <h4 class="vol-role">Marketing Team - Team Lead</h4>
+            <p class="vol-org">IEEE WIE Day 2026 Celebrations – IEEE WIE Student Branch Affinity Group of SUSL</p>
+            <p class="vol-desc">Leading marketing campaigns, coordinating event outreach strategies, and supervising cross-functional creative output.</p>
+          </div>
+
+          <!-- Vol 2 -->
+          <div class="vol-card">
+            <div class="vol-header">
+              <span class="vol-badge">Coordination</span>
+              <i class='bx bx-calendar-event' style="color: var(--secondary); font-size: 1.4rem;"></i>
+            </div>
+            <h4 class="vol-role">Event Coordinator</h4>
+            <p class="vol-org">Rotaract Club – Project under SDG 6</p>
+            <p class="vol-desc">Coordinated project execution focusing on Clean Water and Sanitation (United Nations Sustainable Development Goal 6).</p>
+          </div>
+
+          <!-- Vol 3 -->
+          <div class="vol-card">
+            <div class="vol-header">
+              <span class="vol-badge">Delegate</span>
+              <i class='bx bx-code-alt' style="color: var(--accent); font-size: 1.4rem;"></i>
+            </div>
+            <h4 class="vol-role">Delegate Team Member</h4>
+            <p class="vol-org">IEEE WIE Student Branch Affinity Group – PearlHack 3.0</p>
+            <p class="vol-desc">Represented the affinity group delegation in hackathon operations, technical engagement, and participant mentoring.</p>
+          </div>
+
+          <!-- Vol 4 -->
+          <div class="vol-card">
+            <div class="vol-header">
+              <span class="vol-badge">Education</span>
+              <i class='bx bx-book-open' style="color: var(--primary); font-size: 1.4rem;"></i>
+            </div>
+            <h4 class="vol-role">Team Member</h4>
+            <p class="vol-org">Nenasa STEM Education Workshop 2025</p>
+            <p class="vol-desc">Facilitated STEM education workshops, guiding school students in technology fundamentals and computational thinking.</p>
+          </div>
+
+          <!-- Vol 5 -->
+          <div class="vol-card">
+            <div class="vol-header">
+              <span class="vol-badge">Content</span>
+              <i class='bx bx-edit' style="color: var(--warning); font-size: 1.4rem;"></i>
+            </div>
+            <h4 class="vol-role">Volunteer – Content Writing Team</h4>
+            <p class="vol-org">IEEE WIE 25/26</p>
+            <p class="vol-desc">Drafting formal event reports, social editorial copies, and promotional technical documentation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / CORE COMPETENCIES SECTION -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">What I Bring To The Team</span>
+          <h2 class="section-title">Core <span class="gradient-text">Competencies</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class='bx bx-check-shield'></i></div>
+            <h3 class="service-title">Manual Software Testing</h3>
+            <p class="service-desc">
+              Designing structured test plans, executing functional, UI, boundary value, and regression tests. Documenting reproducible bug reports with detailed triage.
+            </p>
+            <ul class="service-points">
+              <li><i class='bx bx-check'></i> Test Plans &amp; Test Scenarios</li>
+              <li><i class='bx bx-check'></i> Positive &amp; Negative Test Cases</li>
+              <li><i class='bx bx-check'></i> Functional &amp; Regression Testing</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class='bx bx-send'></i></div>
+            <h3 class="service-title">API &amp; Automation Testing Readiness</h3>
+            <p class="service-desc">
+              Verifying backend endpoints with Postman, validating response payloads, and developing test automation foundations using Selenium, JUnit, and TestNG.
+            </p>
+            <ul class="service-points">
+              <li><i class='bx bx-check'></i> Postman REST API Validations</li>
+              <li><i class='bx bx-check'></i> Selenium WebDriver Concepts</li>
+              <li><i class='bx bx-check'></i> JUnit &amp; TestNG Assertions</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class='bx bx-code-alt'></i></div>
+            <h3 class="service-title">Frontend Web Development</h3>
+            <p class="service-desc">
+              Building responsive, semantic, and maintainable user interfaces using Next.js, React.js, TypeScript, JavaScript (ES6+), HTML5, and modern CSS.
+            </p>
+            <ul class="service-points">
+              <li><i class='bx bx-check'></i> React.js &amp; Next.js Component UI</li>
+              <li><i class='bx bx-check'></i> Responsive Mobile-First Styling</li>
+              <li><i class='bx bx-check'></i> Clean DOM &amp; State Management</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class='bx bx-git-pull-request'></i></div>
+            <h3 class="service-title">Agile QA &amp; Defect Tracking</h3>
+            <p class="service-desc">
+              Collaborating within Agile/Scrum sprints, logging and tracking defects in Jira and Excel, and utilizing Git for disciplined version control workflows.
+            </p>
+            <ul class="service-points">
+              <li><i class='bx bx-check'></i> Jira Issue &amp; Defect Tracking</li>
+              <li><i class='bx bx-check'></i> Git &amp; GitHub Version Control</li>
+              <li><i class='bx bx-check'></i> Test Documentation (Excel / Sheets)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Let's Connect &amp; Collaborate</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details -->
+          <div class="contact-info-panel">
+            <div class="contact-card-highlight">
+              <h3>Seeking SQA Engineer Internship Opportunities</h3>
+              <p>
+                I am actively seeking a <strong>Software Quality Assurance (SQA) Intern</strong> position to contribute to delivering 
+                high-quality, dependable software. Whether you have an internship inquiry, project collaboration, or want to discuss QA, 
+                feel free to reach out!
+              </p>
+            </div>
+
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class='bx bx-envelope'></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Email</span>
+                  <a href="mailto:poojaniwijenayake@gmail.com" class="channel-link">poojaniwijenayake@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class='bx bx-phone'></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Phone</span>
+                  <a href="tel:+94707471016" class="channel-link">+94 707471016</a>
+                </div>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class='bx bxl-linkedin-square'></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/poojani-wijenayake/" target="_blank" rel="noopener noreferrer" class="channel-link">linkedin.com/in/poojani-wijenayake</a>
+                </div>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class='bx bxl-github'></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">GitHub</span>
+                  <a href="https://github.com/PoojaniGeehara" target="_blank" rel="noopener noreferrer" class="channel-link">github.com/PoojaniGeehara</a>
+                </div>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class='bx bx-map'></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-static">Matara, Sri Lanka</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Action: Copy Email -->
+            <div class="quick-copy-box">
+              <span>Quick copy:</span>
+              <button class="copy-email-chip" id="copy-email-chip">
+                <i class='bx bx-copy'></i>
+                <span id="copy-text-display">poojaniwijenayake@gmail.com</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Name <span class="required">*</span></label>
+                  <div class="input-wrap">
+                    <i class='bx bx-user input-icon'></i>
+                    <input type="text" id="contact-name" name="name" placeholder="e.g. Hiring Manager / Recruiter" required>
+                  </div>
+                  <span class="error-msg" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Your Email <span class="required">*</span></label>
+                  <div class="input-wrap">
+                    <i class='bx bx-envelope input-icon'></i>
+                    <input type="email" id="contact-email" name="email" placeholder="e.g. recruiter@company.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <div class="input-wrap">
+                  <i class='bx bx-bookmark input-icon'></i>
+                  <input type="text" id="contact-subject" name="subject" placeholder="e.g. SQA Intern Opportunity / Interview Request">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class='bx bx-message-detail input-icon'></i>
+                  <textarea id="contact-message" name="message" rows="5" placeholder="Write your message or inquiry here..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                <i class='bx bx-paper-plane'></i>
+                <span>Send Message</span>
+              </button>
+
+              <div class="form-feedback" id="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">Poojani<span class="highlight">.qa</span></div>
+          <p>Software Quality Assurance Engineer - Intern | Sabaragamuwa University of Sri Lanka</p>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Credentials</a>
+          <a href="#services">Expertise</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/PoojaniGeehara" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/poojani-wijenayake/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="mailto:poojaniwijenayake@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+          <a href="tel:+94707471016" aria-label="Phone"><i class='bx bx-phone'></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>Poojani Geehara Ransiluni Wijenayake</strong>. All Rights Reserved.</p>
+        <p class="footer-note">Crafted with modern HTML5, CSS3, &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BACK-TO-TOP BUTTON -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top" title="Back to Top">
+    <svg class="progress-ring" width="48" height="48">
+      <circle class="progress-ring__circle" stroke="var(--primary)" stroke-width="3" fill="transparent" r="21" cx="24" cy="24"/>
+    </svg>
+    <i class='bx bx-chevron-up'></i>
+  </button>
+
+  <!-- RESUME / CV MODAL -->
+  <div class="modal" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-title">
+    <div class="modal-overlay"></div>
+    <div class="modal-dialog resume-dialog">
+      <div class="modal-header">
+        <h3 id="resume-title"><i class='bx bx-file'></i> Curriculum Vitae</h3>
+        <div class="modal-actions">
+          <button class="btn btn-sm btn-outline print-btn" onclick="window.print()" title="Print CV">
+            <i class='bx bx-printer'></i> Print / Save PDF
+          </button>
+          <button class="modal-close" id="close-resume-modal" aria-label="Close CV Modal">
+            <i class='bx bx-x'></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-content resume-content printable-area">
+        <!-- Resume Header -->
+        <div class="cv-header">
+          <div>
+            <h2>POOJANI GEEHARA RANSILUNI WIJENAYAKE</h2>
+            <p class="cv-subtitle">Software Quality Assurance Engineer - Intern</p>
+          </div>
+          <div class="cv-contact-meta">
+            <div><i class='bx bx-envelope'></i> poojaniwijenayake@gmail.com</div>
+            <div><i class='bx bx-phone'></i> +94 707471016</div>
+            <div><i class='bx bxl-linkedin'></i> linkedin.com/in/poojani-wijenayake</div>
+            <div><i class='bx bxl-github'></i> github.com/PoojaniGeehara</div>
+            <div><i class='bx bx-map-pin'></i> Matara, Sri Lanka</div>
+          </div>
+        </div>
+
+        <hr class="cv-divider">
+
+        <!-- Professional Profile -->
+        <div class="cv-section">
+          <h3>Profile</h3>
+          <p>
+            Motivated undergraduate in Computing and Information Systems at Sabaragamuwa University of Sri Lanka with a strong 
+            interest in Software Quality Assurance. Currently developing my knowledge of software testing and quality assurance concepts 
+            and eager to learn industry-standard testing tools and practices. A quick learner with strong problem-solving and technical skills, 
+            seeking a Software Quality Assurance Intern position to gain practical experience and contribute to delivering high-quality software solutions.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="cv-section">
+          <h3>Education</h3>
+          <div class="cv-item">
+            <div class="cv-item-head">
+              <strong>BSc (Hons) in Computing and Information Systems</strong>
+              <span class="cv-date">Present (Ongoing)</span>
+            </div>
+            <p class="cv-place">Sabaragamuwa University of Sri Lanka</p>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-head">
+              <strong>G.C.E. Advanced Level – Physical Science Stream (B, C, C)</strong>
+              <span class="cv-date">2022</span>
+            </div>
+            <p class="cv-place">St. Thomas' Girls' High School, Matara</p>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="cv-section">
+          <h3>Projects</h3>
+          <div class="cv-item">
+            <div class="cv-item-head">
+              <strong>E-Commerce Web Application – Manual Testing Project (ShopEase)</strong>
+              <span class="cv-date">Present (Ongoing)</span>
+            </div>
+            <p class="cv-subtext">
+              <strong>Background:</strong> Developed a frontend e-commerce web application (ShopEase) using vanilla JavaScript to practice end-to-end manual software testing. Authored test plans, test scenarios, and detailed positive/negative test cases covering user authentication, product catalog filtering, cart state management, and checkout workflows. Executed functional, boundary, UI, and regression tests while logging bug reports and tracking resolution artifacts.<br>
+              <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Browser LocalStorage, Git, GitHub, Excel, Manual Testing.
+            </p>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-head">
+              <strong>LankaGeo – AI-Powered Flood Detection &amp; Risk Analysis Platform (Group Project)</strong>
+              <span class="cv-date">2025 – 2026</span>
+            </div>
+            <p class="cv-subtext">
+              <strong>Background:</strong> A web-based flood analysis platform that uses satellite imagery and machine learning to detect flood-affected areas, visualize flood zones, and provide historical flood risk analysis and user alerts.<br>
+              <strong>Contribution:</strong> Frontend Developer.<br>
+              <strong>Tech Stack:</strong> Next.js, React.js, TypeScript, Tailwind CSS, Google Maps API, Supabase.
+            </p>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-head">
+              <strong>Task Manager CLI Application</strong>
+              <span class="cv-date">2025</span>
+            </div>
+            <p class="cv-subtext">
+              <strong>Background:</strong> Built an interactive, terminal-based task management application in pure Node.js utilizing standard IO readline interfaces, memory-based state management, custom input validation routines, dynamic menu navigation, and complete CRUD operations.<br>
+              <strong>Tech Stack:</strong> Node.js, JavaScript, Git.
+            </p>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="cv-section">
+          <h3>Technical Skills</h3>
+          <div class="cv-skills-grid">
+            <div><strong>Programming Languages:</strong> HTML, CSS, Java, JavaScript, C, Python</div>
+            <div><strong>Concepts &amp; Methodologies:</strong> Object-Oriented Programming (OOP), Agile Development, SDLC / STLC</div>
+            <div><strong>Databases:</strong> MongoDB, MySQL</div>
+            <div><strong>Tools &amp; Frameworks:</strong> JUnit, Postman, Selenium, TestNG, Jira, IntelliJ IDEA, VS Code</div>
+            <div><strong>Version Control:</strong> Git, GitHub</div>
+            <div><strong>Other:</strong> Figma, Microsoft Excel, Google Sheets</div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="cv-section">
+          <h3>Soft Skills</h3>
+          <div class="timeline-tags" style="margin-top: 0.5rem;">
+            <span class="tech-tag">Adaptability</span>
+            <span class="tech-tag">Problem Solving</span>
+            <span class="tech-tag">Teamwork</span>
+            <span class="tech-tag">Communication</span>
+            <span class="tech-tag">Time Management</span>
+            <span class="tech-tag">Leadership</span>
+          </div>
+        </div>
+
+        <!-- Certificates -->
+        <div class="cv-section">
+          <h3>Certificates</h3>
+          <ul class="modal-features">
+            <li><i class='bx bx-check-circle'></i> <strong>Foundations of User Experience (UX) Design</strong> – Coursera</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Data Literacy with AI</strong> – Sololearn</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Python for Beginners</strong> – Open Learning Platform, University of Moratuwa</li>
+          </ul>
+        </div>
+
+        <!-- Competitions and Achievements -->
+        <div class="cv-section">
+          <h3>Competitions and Achievements</h3>
+          <ul class="modal-features">
+            <li><i class='bx bx-trophy'></i> <strong>MoraXtreme 10.0</strong> – Algorithmic Coding Competition (IEEE Student Branch, University of Moratuwa)</li>
+            <li><i class='bx bx-award'></i> <strong>GitHub Badges:</strong> Pull Shark (x2), Quickdraw</li>
+          </ul>
+        </div>
+
+        <!-- Volunteering Experiences -->
+        <div class="cv-section">
+          <h3>Volunteering Experiences</h3>
+          <ul class="modal-features">
+            <li><i class='bx bx-check-circle'></i> <strong>Marketing Team - Team Lead:</strong> IEEE WIE Day 2026 celebrations – IEEE WIE Student Branch Affinity Group of SUSL</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Event Coordinator:</strong> Rotaract Club – Project under SDG 6</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Delegate Team:</strong> IEEE WIE Student Branch Affinity Group – PearlHack 3.0</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Team Member:</strong> Nenasa STEM Education Workshop 2025</li>
+            <li><i class='bx bx-check-circle'></i> <strong>Volunteer - Content Writing Team:</strong> IEEE WIE 25/26</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT DETAILS MODALS -->
+  <!-- Modal 1: ShopEase E-Commerce Manual Testing -->
+  <div class="modal project-detail-modal" id="modal-shopease" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>ShopEase – Manual Testing Project</h3>
+        <button class="modal-close" aria-label="Close modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-content">
+        <img src="pro2.PNG" alt="ShopEase Manual Testing Preview" class="modal-project-img">
+        <div class="modal-tags">
+          <span class="p-tag">Manual Testing</span>
+          <span class="p-tag">Test Plan</span>
+          <span class="p-tag">Test Cases</span>
+          <span class="p-tag">Bug Reporting</span>
+          <span class="p-tag">JavaScript</span>
+          <span class="p-tag">Excel</span>
+        </div>
+        <h4>Project Background</h4>
+        <p>
+          Developed a frontend e-commerce web application (ShopEase) using vanilla JavaScript to practice end-to-end manual software testing. 
+          Authored test plans, test scenarios, and detailed positive/negative test cases covering user authentication, product catalog filtering, 
+          cart state management, and checkout workflows.
+        </p>
+        <h4>QA &amp; Testing Highlights</h4>
+        <ul class="modal-features">
+          <li><i class='bx bx-check-circle'></i> Comprehensive Test Plan defining scope, test strategy, resources, and pass/fail criteria.</li>
+          <li><i class='bx bx-check-circle'></i> Positive &amp; Negative test cases for form inputs, boundary value conditions, and edge cases.</li>
+          <li><i class='bx bx-check-circle'></i> Functional, UI, usability, and regression test execution across multiple viewports.</li>
+          <li><i class='bx bx-check-circle'></i> Structured Defect Reporting: Title, Severity, Priority, Steps to Reproduce, Expected vs Actual results.</li>
+        </ul>
+        <div class="modal-footer-links">
+          <a href="https://github.com/PoojaniGeehara/-E-Commerce-Demo-Web-Application" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class='bx bxl-github'></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: LankaGeo AI Flood Detection -->
+  <div class="modal project-detail-modal" id="modal-lankageo" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>LankaGeo – AI-Powered Flood Detection &amp; Risk Analysis</h3>
+        <button class="modal-close" aria-label="Close modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-content">
+        <div class="modal-tags">
+          <span class="p-tag">Next.js</span>
+          <span class="p-tag">React.js</span>
+          <span class="p-tag">TypeScript</span>
+          <span class="p-tag">Tailwind CSS</span>
+          <span class="p-tag">Google Maps API</span>
+          <span class="p-tag">Supabase</span>
+        </div>
+        <h4>Project Overview (Group Project 2025–2026)</h4>
+        <p>
+          LankaGeo is a web-based flood analysis platform that uses satellite imagery and machine learning to detect flood-affected areas, 
+          visualize flood zones, and provide historical flood risk analysis and real-time user alerts.
+        </p>
+        <h4>Contribution &amp; Responsibilities</h4>
+        <ul class="modal-features">
+          <li><i class='bx bx-check-circle'></i> Contributed as <strong>Frontend Developer</strong> engineering responsive web interfaces.</li>
+          <li><i class='bx bx-check-circle'></i> Integrated interactive mapping components with Google Maps API and real-time data layers.</li>
+          <li><i class='bx bx-check-circle'></i> Conducted front-end UI verification, component testing, and cross-browser validation.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Task Manager CLI -->
+  <div class="modal project-detail-modal" id="modal-taskcli" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Task Manager CLI Application</h3>
+        <button class="modal-close" aria-label="Close modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-content">
+        <div class="modal-tags">
+          <span class="p-tag">Node.js</span>
+          <span class="p-tag">JavaScript</span>
+          <span class="p-tag">Readline IO</span>
+          <span class="p-tag">CLI</span>
+          <span class="p-tag">Input Validation</span>
+        </div>
+        <h4>Project Background (2025)</h4>
+        <p>
+          Built an interactive, terminal-based task management application in pure Node.js utilizing standard IO readline interfaces, 
+          memory-based state management, custom input validation routines, dynamic menu navigation, and complete CRUD operations.
+        </p>
+        <h4>Key Features &amp; Testing Practices</h4>
+        <ul class="modal-features">
+          <li><i class='bx bx-check-circle'></i> Full CRUD functionality (Create, Read, Update, Delete tasks) via terminal menu.</li>
+          <li><i class='bx bx-check-circle'></i> Input sanitization and boundary checking preventing runtime errors.</li>
+          <li><i class='bx bx-check-circle'></i> Modular codebase structured for easy unit testing and maintainability.</li>
+        </ul>
+        <div class="modal-footer-links">
+          <a href="https://github.com/PoojaniGeehara/task-flow" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class='bx bxl-github'></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Portfolio -->
+  <div class="modal project-detail-modal" id="modal-portfolio" role="dialog" aria-modal="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Personal SQA &amp; Developer Portfolio</h3>
+        <button class="modal-close" aria-label="Close modal"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="modal-content">
+        <img src="pro1.PNG" alt="Portfolio Preview" class="modal-project-img">
+        <div class="modal-tags">
+          <span class="p-tag">HTML5</span>
+          <span class="p-tag">CSS3</span>
+          <span class="p-tag">JavaScript</span>
+          <span class="p-tag">GitHub Pages</span>
+        </div>
+        <h4>Project Overview</h4>
+        <p>A personal portfolio built to exhibit SQA competencies, technical proficiencies, education, and development projects in a clean, modern aesthetic with glassmorphism and subtle animations.</p>
+        <h4>Key Features</h4>
+        <ul class="modal-features">
+          <li><i class='bx bx-check-circle'></i> Smooth scroll spy navigation and mobile slide-out drawer.</li>
+          <li><i class='bx bx-check-circle'></i> Dual Dark/Light theme toggle with localStorage persistence.</li>
+          <li><i class='bx bx-check-circle'></i> Interactive CV modal with quick printing functionality.</li>
+          <li><i class='bx bx-check-circle'></i> High-performance, lightweight architecture with zero bloat.</li>
+        </ul>
+        <div class="modal-footer-links">
+          <a href="https://github.com/PoojaniGeehara/PotfolioPW" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class='bx bxl-github'></i> View Repository
+          </a>
+          <a href="https://poojanigeehara.github.io/PotfolioPW/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <i class='bx bx-link-external'></i> Live Preview
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
