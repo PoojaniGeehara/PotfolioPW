@@ -886,8 +886,8 @@ input, textarea {
 
 .image-frame {
   position: relative;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   border-radius: var(--radius-xl);
   overflow: hidden;
   border: 2px solid rgba(var(--primary-rgb), 0.25);
@@ -898,8 +898,8 @@ input, textarea {
 }
 
 .hero-img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center top;
   transition: transform var(--transition-slow);
